@@ -1,0 +1,40 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 20px;
+  text-align: center;
+}
+
+.flex-container {
+  height: 70vh;
+  width: 70vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  border: 2px solid black;
+  border-radius: 16px;
+}
+
+.label_style {
+  font-size: 32px;
+  font-family: cursive;
+}
+
+input {
+  border: 2px solid black;
+  border-radius: 8px;
+  line-height: 2.5em;
+  width: 400px;
+}
+
+.submit-btn {
+  font-size: 28px;
+  padding: 10px 10px;
+  width: 400px;
+  color: white;
+  background-color: black;
+  border: 1 px solid lightgrey;
+  border-radius: 16px;
+}

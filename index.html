@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Update Your Profile</title>
+    <link rel="stylesheet" href="styles.css" />
+    <!-- Optional for styling -->
+  </head>
+  <body>
+    <div>
+      <form class="flex-container" action="/submit" method="post">
+        <div>
+          <label class="label_style" for="name">Full Name</label>
+          <br />
+          <br />
+          <input
+            class="input-style"
+            type="text"
+            id="name"
+            name="name"
+            placeholder="What should we call you ?"
+            required
+          />
+        </div>
+        <div>
+          <label class="label_style" for="email">Email</label>
+          <br />
+          <br />
+          <input
+            type="email"
+            id="email"
+            name="email"
+            placeholder="joe@doe.com"
+            required
+          />
+        </div>
+        <div>
+          <label class="label_style" for="password">Enter password</label>
+          <br />
+          <br />
+          <input
+            type="password"
+            id="password"
+            name="password"
+            placeholder="xxxxxxxxxxxxx"
+            required
+          />
+        </div>
+
+        <div>
+          <label class="label_style" for="confirm-password"
+            >Confirm password</label
+          >
+          <br />
+          <br />
+          <input
+            type="password"
+            id="confirm-password"
+            name="confirm password"
+            placeholder="xxxxxxxxxxxxx"
+            required
+          />
+        </div>
+        <div>
+          <button class="submit-btn" type="submit">Submit</button>
+        </div>
+      </form>
+    </div>
+  </body>
+</html>
